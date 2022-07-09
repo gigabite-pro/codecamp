@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: brown;
+    position: relative;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.first{
+    background-color: blue;
+    position: absolute;
+}
+
+.second{
+    background-color: pink;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.third{
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fourth{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.newinput{
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50px;
+}
+
+.newinput::placeholder{
+    color: red;
+}
+
+.newinput:focus{
+    outline: solid;
+    outline-color: red;
+}
+
+.btn{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid blue;
+    font-size: 20px;
+    border-radius: 10px;
+    
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    /* background-image: url('assets/Coding Bootcamp.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
