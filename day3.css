@@ -78,9 +78,9 @@ body{
     height: 200px;
     border: 2px solid black;
     border-radius: 50%;
-    /* background-image: url('assets/Coding Bootcamp.png');
+    background-image: url('assets/Coding Bootcamp.png');
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: aquamarine;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    animation: left-right 2s both infinite;
+}
+
+
+@keyframes left-right{
+    0% {
+        transform: translateX(0) rotate(0deg);
+    }
+
+    24%{
+        background-color: red;
+    }
+
+    25% {
+        transform: translateY(200%);
+        background-color: blueviolet;
+    }
+
+    49%{
+        background-color: blueviolet;
+    }
+
+    50%{
+        transform: translateX(200%) translateY(200%);
+        background-color: green;
+    }
+    74%{
+        background-color: green;
+    }
+
+    75%{
+        transform: translateX(200%);
+        background-color: cadetblue;
+    }
+    99%{
+        background-color: cadetblue;
+    }
+
+    100% {
+        transform: translateX(0);
+        background-color: red;
+    }
+}
+
+/* .container{
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pfp{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+    background: url('https://github.com/gigabite-pro.png');
+    background-size: cover;
+}
+
+.middle{
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.first{
+    background-color: aqua;
+}
+
+.second{
+    background-color: pink;
+}
+
+.third{
+    background-color: yellow;
+} */
