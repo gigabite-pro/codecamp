@@ -1,0 +1,10 @@
+{
+    "1" : "Vaibhav",
+    "age": 18,
+    "city": "Gurgaon",
+    "relatives" : {
+        "father" : "Vaibhav",
+        "mother" : "Vaibhav",
+        "sister" : "Vaibhav"
+    }
+}
